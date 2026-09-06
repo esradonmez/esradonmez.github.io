@@ -1,0 +1,76 @@
+# Content for the /service/ page (_pages/service.md).
+# Three sections: events organized, reviewing, awards & grants.
+# Every field except `title`/`name` is optional -- omit what does not apply.
+
+events_organized:
+  - title: "CSS Workshop: AI and Society"
+    url: https://www.iris.uni-stuttgart.de/news/CSS-Workshop-AI-and-Society/
+    role: Co-organizer
+    venue: University of Stuttgart
+    year: 2026
+    description: >-
+      Brought together researchers from IRIS, the IMS, and CSS in Stuttgart and the Chair of Data Science in the Economic and Social Sciences at the
+      University of Mannheim to explore how computational approaches can support the study of social, cultural, and institutional questions about AI.
+
+  - title: KnitTogether'25
+    url: https://knittogether.github.io/kt25/
+    role: Co-organizer
+    venue: 1st European CL Research Summit for Junior Researchers
+    year: 2025
+    description: >-
+      A week-long summit on *Bias in NLP and its Societal Impacts* in Wildhaus, Switzerland, bringing together 25 early-career researchers.
+
+# Grouped by kind; each group renders as one paragraph of comma-separated venues.
+reviewing:
+  - category: Conference
+    venues:
+      - name: ACL Rolling Review
+        abbr: ARR
+        years: "2023-2026"
+      - name: Conference on Computational Natural Language Processing
+        abbr: CoNLL
+        years: "2023"
+      - name: Language Resources and Evaluation Conference
+        abbr: LREC
+        years: "2024-2026"
+      - name: International Conference on Computational Linguistics
+        abbr: COLING
+        years: "2024-2026"
+      - name: Konferenz zur Verarbeitung natürlicher Sprache
+        abbr: KONVENS
+        years: "2026"
+
+  - category: Workshop
+    venues:
+      - name: EACL Student Research Workshop
+        abbr: EACL SRW
+        years: "2025, 2026"
+      - name: Identity-Aware AI
+        abbr:
+        years: "2026"
+      - name: Perspectivist Approaches to NLP
+        abbr: NLPerspectives
+        years: "2026"
+
+  - category: Ethics Review
+    venues:
+      - name: ACL Rolling Review
+        abbr: ARR
+        years: "2025-2026"
+
+awards:
+  - title: Outstanding Reviewer Award
+    awarder: IJCNLP-AACL
+    awarder_url: https://2025.aaclnet.org/
+    year: 2025
+    certificate: /assets/pdf/awards/ijcnlp-aacl-2025-outstanding-reviewer.pdf
+
+  - title: Outstanding Reviewer Award
+    awarder: EMNLP
+    awarder_url: https://2025.emnlp.org/
+    year: 2025
+    certificate: /assets/pdf/awards/emnlp-2025-outstanding-reviewer.pdf
+  - title: ELLIS RobustLLM Workshop Travel Grant
+    awarder: ELLIS
+    awarder_url: https://sites.google.com/view/robustml2024/robust-llms-workshop?authuser=0
+    year: 2024

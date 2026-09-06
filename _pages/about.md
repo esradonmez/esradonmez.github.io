@@ -1,6 +1,6 @@
 ---
 layout: about
-title: about
+title: About
 permalink: /
 subtitle: <a href='https://www.ims.uni-stuttgart.de/en/'>IMS, University of Stuttgart</a> | <a href='https://informatics.ed.ac.uk/ilcc'> ILCC, University of Edinburgh</a> | <a href='https://www.hw.ac.uk/about/our-schools/mathematical-and-computer-sciences/research/computer-science/interaction-lab'> Interaction Lab, Heriot-Watt University</a>
 
@@ -27,4 +27,4 @@ announcements:
 
 I am a final-year PhD Candidate at the IMS, University of Stuttgart, mentored by [Agnieszka Faleńska](https://www.ims.uni-stuttgart.de/en/institute/team/Falenska/). My research focuses on socially embedded AI systems, spanning responsible/ethical AI and sociotechnical approaches to model design, alignment operationalization and objective trade-offs, sociotechnical evaluation and benchmarking, and the societal implications of AI.
 
-Currently, I am at the [University of Edinburgh](https://informatics.ed.ac.uk/ilcc) and [Heriot-Watt University](https://www.hw.ac.uk/about/our-schools/mathematical-and-computer-sciences/research/computer-science/interaction-lab) for a research stay working with [Björn Ross](https://sweb.inf.ed.ac.uk/bross3/) and [Gavin Abercrombie](https://gavinabercrombie.github.io/). Earlier this year, I spent three months at [MilaNLP](https://milanlproc.github.io/#about), mentored by [Dirk Hovy](https://www.dirkhovy.com/). I am investigating `value pluralism in AI alignment`, with the goal of developing language technologies that represent diverse human perspectives and can dynamically adapt to new and/or minority perspectives.
+Currently, I am at the [University of Edinburgh](https://informatics.ed.ac.uk/ilcc) and [Heriot-Watt University](https://www.hw.ac.uk/about/our-schools/mathematical-and-computer-sciences/research/computer-science/interaction-lab) for a research stay working with [Björn Ross](https://sweb.inf.ed.ac.uk/bross3/) and [Gavin Abercrombie](https://gavinabercrombie.github.io/). Earlier this year, I spent three months at [MilaNLP](https://milanlproc.github.io/#about), mentored by [Dirk Hovy](https://www.dirkhovy.com/). I am investigating `pluralistic AI alignment`, with the goal of developing language technologies that represent diverse human perspectives and can dynamically adapt to new and/or minority perspectives.
