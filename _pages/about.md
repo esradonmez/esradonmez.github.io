@@ -6,7 +6,7 @@ subtitle: <a href='https://www.ims.uni-stuttgart.de/en/'>IMS, University of Stut
 
 profile:
   align: right
-  image: prof_pic.jpg
+  image: prof_pic2.jpeg
   image_circular: true # crops the image to make it circular
   more_info: >
     <p style="display:block; text-align:center;">they/them &middot; she/her</p>
@@ -25,6 +25,15 @@ announcements:
 #   scrollable: true # adds a vertical scroll bar if there are more than 3 new posts items
 #   limit: 3 # leave blank to include all the blog posts
 ---
+
+<style>
+  @media (min-width: 576px) {
+    .profile {
+      width: 29%;
+      margin-top: -1.5rem;
+    }
+  }
+</style>
 
 I am a final-year PhD Candidate at the IMS, University of Stuttgart, mentored by [Agnieszka Faleńska](https://www.ims.uni-stuttgart.de/en/institute/team/Falenska/). My research focuses on socially embedded AI systems, spanning responsible/ethical AI and sociotechnical approaches to model design, alignment operationalization and objective trade-offs, sociotechnical evaluation and benchmarking, and the societal implications of AI.
 
