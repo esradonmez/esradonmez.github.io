@@ -74,3 +74,29 @@ awards:
     awarder: ELLIS
     awarder_url: https://sites.google.com/view/robustml2024/robust-llms-workshop?authuser=0
     year: 2024
+
+# Thesis and student project supervision. `paper` links to an entry on the
+# publications page (use the BibTeX key as the anchor) or to an external URL.
+supervision:
+  - students: David Tsoi
+    type: MSc thesis
+    title: Predicting Objective Conflict and Covering Trade-offs in Steerable Pluralistic Alignment
+    year: 2026
+
+  - students: Pascal Miliczek and Radu-Mihai Savancea
+    type: Project seminar
+    title: Sparse Features for Social Commonsense Plausibility in Large Language Models
+    year: 2026
+
+  - students: Yassir El Attar
+    type: Research project
+    title: A Systematic Analysis of Linguistic Features in AI-Generated Text Detection Across Domains and Models
+    paper: /publications/#el-attar-etal-2026-systematic
+    year: "2025-2026"
+    description: Published at the Findings of AACL-IJCNLP'26
+
+  - students: Gayane Ghazaryan
+    type: Research project
+    title: "Better Reward Models Are Not Less Biased Ones: Social Alignment Beyond Standard Reward Benchmarks"
+    paper: /publications/#ghazaryan-donmez-2026-misaligned
+    year: 2025

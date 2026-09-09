@@ -2,7 +2,7 @@
 layout: page
 permalink: /service/
 title: Service
-description: Events organized, reviewing, and awards & grants.
+description: Events organized, reviewing, awards & grants, and supervision.
 nav: true
 nav_order: 7
 ---
@@ -68,6 +68,7 @@ nav_order: 7
 {% assign events = site.data.service.events_organized %}
 {% assign reviewing = site.data.service.reviewing %}
 {% assign awards = site.data.service.awards %}
+{% assign supervision = site.data.service.supervision %}
 
 {% if events and events.size > 0 %}
 
@@ -132,6 +133,30 @@ nav_order: 7
           {% if award.year %}<span class="service-year">{{ award.year }}</span>{% endif %}
         </div>
         {% if award.description %}<div class="service-note">{{ award.description | markdownify }}</div>{% endif %}
+      </li>
+    {% endfor %}
+  </ul>
+</div>
+{% endif %}
+
+{% if supervision and supervision.size > 0 %}
+
+<div class="service-section">
+  <h3>Supervision</h3>
+  <ul class="service-list">
+    {% for item in supervision %}
+      <li>
+        <div class="service-entry">
+          <span class="service-title">
+            {% if item.paper %}<a href="{{ item.paper | relative_url }}">{{ item.title }}</a>{% else %}{{ item.title }}{% endif %}
+          </span>
+          {% if item.year %}<span class="service-year">{{ item.year }}</span>{% endif %}
+        </div>
+        {% if item.students or item.type or item.description %}
+          <div class="service-note">
+            {{ item.students }}{% if item.students and item.type %} &middot; {% endif %}{{ item.type }}{% if item.description %} &middot; {{ item.description }}{% endif %}
+          </div>
+        {% endif %}
       </li>
     {% endfor %}
   </ul>
