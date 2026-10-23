@@ -15,7 +15,7 @@ selected_papers: true # includes a list of papers marked as "selected={true}"
 social: true # includes social icons at the bottom of the page
 
 announcements:
-  enabled: true # includes a list of news items
+  enabled: false # rendered from the page body below (so the heading can read "current news")
   scrollable: true # adds a vertical scroll bar if there are more than 3 news items
   limit: 3 # leave blank to include all the news in the `_news` folder
 
@@ -80,3 +80,6 @@ Over the past year, I've been a visiting researcher at [MilaNLP](https://milanlp
   </div>
 </div>
 
+<h2><a href="{{ '/news/' | relative_url }}" style="color: inherit">current news</a></h2>
+
+{% include news.liquid limit=true %}

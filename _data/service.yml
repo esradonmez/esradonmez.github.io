@@ -92,7 +92,7 @@ supervision:
     type: MSc thesis
     title: Predicting Objective Conflict and Covering Trade-offs in Steerable Pluralistic Alignment
     year: 2026
-    description: "Published as <a href=\"/publications/#tsoi-donmez-2026-objectives\"><em>Which Objectives Need a Dial? Predicting Objective Conflict and Covering Trade-offs in Steerable Pluralistic Alignment</em></a> at PANDORA@EMNLP'26"
+    description: 'Published as <a href="/publications/#tsoi-donmez-2026-objectives"><em>Which Objectives Need a Dial? Predicting Objective Conflict and Covering Trade-offs in Steerable Pluralistic Alignment</em></a> at PANDORA@EMNLP''26'
 
   - students: Pascal Miliczek and Radu-Mihai Savancea
     type: Project seminar
@@ -103,10 +103,10 @@ supervision:
     type: Research project
     title: A Systematic Analysis of Linguistic Features in AI-Generated Text Detection Across Domains and Models
     year: "2025-2026"
-    description: "Published as <a href=\"/publications/#el-attar-etal-2026-systematic\"><em>A Systematic Analysis of Linguistic Features in AI-Generated Text Detection Across Domains and Models</em></a> at the Findings of AACL-IJCNLP'26"
+    description: 'Published as <a href="/publications/#el-attar-etal-2026-systematic"><em>A Systematic Analysis of Linguistic Features in AI-Generated Text Detection Across Domains and Models</em></a> at the Findings of AACL-IJCNLP''26'
 
   - students: Gayane Ghazaryan
     type: Research project
     title: "SocialAlignRewardBench: A Benchmark for Assessing Social Alignment in Reward Models"
     year: 2025
-    description: "Published as <a href=\"/publications/#ghazaryan-donmez-2026-better\"><em>Better Reward Models Are Not Always Less Biased: Social Alignment Beyond Standard Reward Benchmarks</em></a> at PANDORA@EMNLP'26"
+    description: 'Published as <a href="/publications/#ghazaryan-donmez-2026-better"><em>Better Reward Models Are Not Always Less Biased: Social Alignment Beyond Standard Reward Benchmarks</em></a> at PANDORA@EMNLP''26'
