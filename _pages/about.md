@@ -59,6 +59,12 @@ Over the past year, I've been a visiting researcher at [MilaNLP](https://milanlp
   <div class="table-responsive">
     <table class="table table-sm table-borderless">
       <tr>
+        <th scope="row" style="width: 20%"><a href="https://knittogether.github.io/kt25/">KnitTogether</a></th>
+        <td>
+          We are acquiring funding for the second edition of <a href="https://knittogether.github.io/kt25/">KnitTogether</a>, the European CL Research Summit for Junior Researchers. The first edition brought together 25 early-career researchers for a week on <em>Bias in NLP and its Societal Impacts</em> (see the <a href="https://hub.hslu.ch/informatik/young-voices-for-fair-ai-research-that-connects/">HSLU write-up</a>). If you or your institution would like to support the next edition — financially or in kind — please get in touch.
+        </td>
+      </tr>
+      <tr>
         <th scope="row" style="width: 20%"><a href="https://acpaths.ims.uni-stuttgart.de/">Survey</a></th>
         <td>
           Together with Marlene Lutz and Matthias Orlikowski, I am running a <a href="https://acpaths.ims.uni-stuttgart.de/">community survey on careers in NLP</a> — how working in the field shapes our lives, the trade-offs we navigate, and the strategies that help. Please share your experiences and perspectives, whatever your career stage. The survey accompanies our <a href="https://2026.emnlp.org/program/bof/#finding-your-path-honest-conversations-on-early-career-paths-in-nlp">Birds-of-a-Feather session</a> at EMNLP 2026 and will stay open well beyond it.
