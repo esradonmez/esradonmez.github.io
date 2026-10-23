@@ -4,7 +4,7 @@ permalink: /service/
 title: Service
 description: Events organized, reviewing, awards & grants, and supervision.
 nav: true
-nav_order: 7
+nav_order: 2
 ---
 
 <style>

@@ -3,6 +3,16 @@
 # Every field except `title`/`name` is optional -- omit what does not apply.
 
 events_organized:
+  - title: "Finding Your Path: Honest Conversations on Early Career Paths in NLP"
+    url: https://2026.emnlp.org/program/bof/#finding-your-path-honest-conversations-on-early-career-paths-in-nlp
+    role: Co-organizer
+    venue: Birds-of-a-Feather session, EMNLP
+    year: 2026
+    description: |
+      With Marlene Lutz and Matthias Orlikowski.
+
+      An open discussion and panel on how working in NLP shapes our lives beyond the job.
+
   - title: "CSS Workshop: AI and Society"
     url: https://www.iris.uni-stuttgart.de/news/CSS-Workshop-AI-and-Society/
     role: Co-organizer
@@ -82,6 +92,7 @@ supervision:
     type: MSc thesis
     title: Predicting Objective Conflict and Covering Trade-offs in Steerable Pluralistic Alignment
     year: 2026
+    description: "Published as <a href=\"/publications/#tsoi-donmez-2026-objectives\"><em>Which Objectives Need a Dial? Predicting Objective Conflict and Covering Trade-offs in Steerable Pluralistic Alignment</em></a> at PANDORA@EMNLP'26"
 
   - students: Pascal Miliczek and Radu-Mihai Savancea
     type: Project seminar
@@ -91,12 +102,11 @@ supervision:
   - students: Yassir El Attar
     type: Research project
     title: A Systematic Analysis of Linguistic Features in AI-Generated Text Detection Across Domains and Models
-    paper: /publications/#el-attar-etal-2026-systematic
     year: "2025-2026"
-    description: Published at the Findings of AACL-IJCNLP'26
+    description: "Published as <a href=\"/publications/#el-attar-etal-2026-systematic\"><em>A Systematic Analysis of Linguistic Features in AI-Generated Text Detection Across Domains and Models</em></a> at the Findings of AACL-IJCNLP'26"
 
   - students: Gayane Ghazaryan
     type: Research project
-    title: "Better Reward Models Are Not Less Biased Ones: Social Alignment Beyond Standard Reward Benchmarks"
-    paper: /publications/#ghazaryan-donmez-2026-misaligned
+    title: "SocialAlignRewardBench: A Benchmark for Assessing Social Alignment in Reward Models"
     year: 2025
+    description: "Published as <a href=\"/publications/#ghazaryan-donmez-2026-better\"><em>Better Reward Models Are Not Always Less Biased: Social Alignment Beyond Standard Reward Benchmarks</em></a> at PANDORA@EMNLP'26"
