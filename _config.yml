@@ -375,6 +375,8 @@ scholar:
 
   details_dir: bibliography
   details_link: Details
+  relative: /publications/ # inline {% cite %} links point at the publications page
+  separate_links: true # one link per paper in grouped citations
 
   query: "@*"
   group_by: year
