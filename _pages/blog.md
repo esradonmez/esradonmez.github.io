@@ -1,9 +1,10 @@
 ---
-layout: default
+layout: page
 permalink: /blog/
 title: Blog
-# nav: true
-# nav_order: 1
+description: notes on research, the NLP community, academic life, and more
+nav: true
+nav_order: 4
 pagination:
   enabled: true
   collection: posts
@@ -17,17 +18,6 @@ pagination:
 ---
 
 <div class="post">
-
-{% assign blog_name_size = site.blog_name | size %}
-{% assign blog_description_size = site.blog_description | size %}
-
-{% if blog_name_size > 0 or blog_description_size > 0 %}
-
-  <div class="header-bar">
-    <h1>{{ site.blog_name }}</h1>
-    <h2>{{ site.blog_description }}</h2>
-  </div>
-  {% endif %}
 
 {% if site.display_tags and site.display_tags.size > 0 or site.display_categories and site.display_categories.size > 0 %}
 
@@ -107,6 +97,10 @@ pagination:
       {% assign postlist = paginator.posts %}
     {% else %}
       {% assign postlist = site.posts %}
+    {% endif %}
+
+    {% if postlist.size == 0 %}
+      <li><p>No posts yet.</p></li>
     {% endif %}
 
     {% for post in postlist %}
