@@ -59,7 +59,7 @@ nav_order: 5
         <span class="teaching-title">
           {% if body != "" %}<a href="{{ course.url | relative_url }}">{{ course.title }}</a>{% else %}{{ course.title }}{% endif %}
         </span>
-        {% if course.instructor %}<span class="teaching-meta">{{ course.instructor | replace: "Esra Dönmez (", "" | replace: ")", "" }}</span>{% endif %}
+        {% if course.instructor %}<span class="teaching-meta">{{ course.instructor | replace: "Esra Dönmez", "<strong>Esra Dönmez</strong>" }}</span>{% endif %}
         {% if course.term %}<span class="teaching-term">{{ course.term }}</span>{% endif %}
       </div>
     </li>

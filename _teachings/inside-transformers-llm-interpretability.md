@@ -1,7 +1,7 @@
 ---
 layout: course
 title: "Inside Transformers: Advanced Topics in LLM Interpretability"
-instructor: Esra Dönmez (Co-lecturer)
+instructor: Esra Dönmez, Hardy
 year: 2026
 term: Summer 2026
 course_id: inside-transformers-llm-interpretability

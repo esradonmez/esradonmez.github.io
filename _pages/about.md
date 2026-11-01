@@ -38,7 +38,7 @@ announcements:
     padding: 0.9rem 1.1rem;
     border-left: 4px solid var(--global-theme-color);
     border-radius: 4px;
-    background-color: var(--global-code-bg-color);
+    background-color: color-mix(in srgb, var(--global-theme-color) 8%, var(--global-bg-color));
   }
   .job-market p {
     margin: 0;
